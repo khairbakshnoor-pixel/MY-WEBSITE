@@ -34,7 +34,7 @@ A modern, responsive website built using **HTML, CSS, and JavaScript**, featurin
 ## Demo
 
 You can view a live demo of the website here:  
-[Live Demo Link](#) *(replace with your GitHub Pages link or hosting URL)*
+[Live Demo](https://khairbakshnoor-pixel.github.io/MY-WEBSITE/)
 
 **Screenshot Preview:**  
 ![Screenshot](screen shot.png) 
