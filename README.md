@@ -37,7 +37,8 @@ You can view a live demo of the website here:
 [Live Demo Link](#) *(replace with your GitHub Pages link or hosting URL)*
 
 **Screenshot Preview:**  
-![Screenshot](screenshot.png) *(add a screenshot of your website)*  
+![Screenshot](screen shot.png) 
+![Screenshot](screen shot2.png)
 
 ---
 
