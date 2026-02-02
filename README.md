@@ -51,17 +51,6 @@ This project is built with:
 - **JavaScript (ES6)** – Interactivity and dynamic elements  
 - Optional: **Google Fonts / Icons** – For extra styling  
 
----
-
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/ai-powered-website.git
-
-🌐 HTML & CSS Practice Repository
-Modern Layouts • Responsive Design • Smooth Animations
 
 🚀 This repository is a hands-on collection of HTML & CSS concepts, built to strengthen front-end fundamentals using modern layout techniques like Flexbox, CSS Grid, and Animations.
 
