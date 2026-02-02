@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        var a=5;
+        console.log(a)
+        console.log("hello i am learning java script")
+        console.log(typeof(a))
+    </script>
+    <style>
+        /* ===== Default Desktop Styles ===== */
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: darkblue;
+  margin-bottom: 30px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 0 auto;
+  border-radius: 15px;
+  animation: moveBox 3s infinite; /* animation */
+  transition: transform 0.5s, background-color 0.5s; /* smooth hover */
+}
+
+/* Hover Effect using Transform + Transition */
+.box:hover {
+  transform: scale(1.5) rotate(20deg);
+  background-color: green;
+}
+
+/* ===== Animation @keyframes ===== */
+@keyframes moveBox {
+  0%   { transform: translateX(0); background-color: red; }
+  50%  { transform: translateX(150px); background-color: yellow; }
+  100% { transform: translateX(0); background-color: red; }
+}
+
+/* ===== Media Queries ===== */
+
+/* Tablet */
+@media (max-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+  .box {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    background-color: lightpink;
+  }
+  .box {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+    </style>
+<head>
+  <title>CSS Animations & Responsive Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Responsive & Animated Box</h1>
+
+  <div class="box"></div>
+
+  <p>Resize the browser to see the background color change for tablet/mobile!</p>
+
+</body>
+</html>

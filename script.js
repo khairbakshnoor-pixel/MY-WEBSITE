@@ -1,24 +1,37 @@
-// Magic button interaction
-const magicBtn = document.getElementById('magicBtn');
-const magicText = document.getElementById('magicText');
+var a=7;
+var names = "java script";
+var number=7898;
+var marks=34;
+console.log(names)
+console.log(number)
+console.log(marks)
+console.log(a)
+console.log(typeof(a))
+if(marks>=40){
+    console.log("pass")
+}
+else{
+    console.log("fail")
+}
 
-magicBtn.addEventListener('click', () => {
-  const messages = [
-    "✨ You discovered a secret! ✨",
-    "💡 AI says: Keep learning!",
-    "🚀 Coding is fun!",
-    "🎯 You clicked the magic button!"
-  ];
-  const randomMessage = messages[Math.floor(Math.random() * messages.length)];
-  magicText.textContent = randomMessage;
-});
+// TASK 
+var age =18;
+if(age>10 && age <20){
+    console.log("teenager")
+}
+var a;
+for(a=0;a<=5;a++){
+    console.log(a)
+}
+a=1;
+while(a<=10){
+    console.log(a)
+    a++;
+}
+var a;
+var b;
+function sum(a,b){
+    return a+b;
+}
 
-// Contact form submission
-const contactForm = document.getElementById('contactForm');
-const formMessage = document.getElementById('formMessage');
-
-contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  formMessage.textContent = "✅ Thank you! Your message has been sent.";
-  contactForm.reset();
-});
+console.log(sum(5,8))
