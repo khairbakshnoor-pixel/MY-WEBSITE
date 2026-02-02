@@ -59,3 +59,120 @@ This project is built with:
 
 ```bash
 git clone https://github.com/your-username/ai-powered-website.git
+
+🌐 HTML & CSS Practice Repository
+Modern Layouts • Responsive Design • Smooth Animations
+
+🚀 This repository is a hands-on collection of HTML & CSS concepts, built to strengthen front-end fundamentals using modern layout techniques like Flexbox, CSS Grid, and Animations.
+
+📁 Project Structure
+📦 html-css-practice
+ ┣ 📄 index.html
+ ┣ 📄 flexbox.html
+ ┣ 📄 grid.html
+ ┣ 📄 animation.html
+ ┣ 📁 css
+ ┃ ┗ 📄 style.css
+ ┗ 📄 README.md
+
+✨ Features Covered
+📐 Flexbox Layout
+
+📄 flexbox.html
+
+One-dimensional layouts (row & column)
+
+Alignment & spacing
+
+Flexible and responsive UI components
+
+Best for navbars, cards, and sections
+
+🧩 CSS Grid Layout
+
+📄 grid.html
+
+Two-dimensional layouts (rows + columns)
+
+Page and section structuring
+
+Responsive grid designs
+
+Ideal for dashboards & galleries
+
+🎞️ CSS Animations
+
+📄 animation.html
+
+@keyframes animations
+
+Hover & transition effects
+
+Smooth motion for UI elements
+
+Improved user interaction & visuals
+
+🚀 What You’ll Learn
+
+✅ Clean & semantic HTML5
+
+✅ Modern CSS3 layout techniques
+
+✅ Responsive web design basics
+
+✅ Animation & transition effects
+
+✅ Real-world front-end structure
+
+🛠️ Technologies Used
+
+HTML5
+
+CSS3
+
+Flexbox
+
+Grid
+
+Animations & Transitions
+
+🎯 Purpose of This Repository
+
+This project is created for:
+
+📘 Learning & practice
+
+💼 Portfolio showcase
+
+🧪 Experimenting with layouts
+
+🧠 Strengthening front-end basics
+
+🌱 Future Improvements
+
+📱 Media queries for full responsiveness
+
+🎨 Better UI styling
+
+⚡ JavaScript interactions
+
+🧩 Mini projects using layouts
+
+🤝 Contributing
+
+Feel free to:
+
+Fork the repository
+
+Add improvements
+
+Suggest better layouts
+
+Open a pull request 🚀
+
+👤 Author
+
+Khair Bakhsh Noor
+💻 Front-End Learner | 🚀 Aspiring Developer
+
+⭐ If you like this repository, don’t forget to star it! ⭐
