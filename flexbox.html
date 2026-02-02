@@ -1,48 +1,51 @@
 <!DOCTYPE html>
-<html>
-    <script src="script.js"></script>
-    <style>
-        body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
-  text-align: center;
-}
-
-h1 {
-  color: darkblue;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;          /* row or column */
-  justify-content: space-around; /* space-between, center, flex-start */
-  align-items: center;          /* stretch, flex-start, flex-end, center */
-  flex-wrap: wrap;              /* wrap items if overflow */
-  height: 300px;
-  background-color: #e0e0e0;
-  padding: 20px;
-}
-
-.box {
-  background-color: lightcoral;
-  color: white;
-  font-weight: bold;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 4px 4px 10px grey;
-  text-align: center;
-  flex-grow: 1;  /* box grows to fill space */
-  margin: 10px;
-}
-
-    </style>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Flexbox Example</title>
-  <link rel="stylesheet" href="flexbox.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+    }
+
+    h1 {
+      color: darkblue;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 300px;
+      background-color: #e0e0e0;
+      padding: 20px;
+    }
+
+    .box {
+      background-color: lightcoral;
+      color: white;
+      font-weight: bold;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 4px 4px 10px grey;
+      text-align: center;
+      flex-grow: 1;
+      margin: 10px;
+      cursor: pointer;
+      transition: transform 0.3s, background-color 0.3s;
+    }
+  </style>
 </head>
+
 <body>
 
   <h1>Flexbox Layout Example</h1>
+  <p>👉 Click on any box</p>
 
   <div class="flex-container">
     <div class="box">Box 1</div>
@@ -51,5 +54,7 @@ h1 {
     <div class="box">Box 4</div>
   </div>
 
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
 </body>
 </html>
